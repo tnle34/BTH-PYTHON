@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="th1_5"/>
+        <attribute name="authors" value="LOQ"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-26 09:40:05 SA"/>
+        <attribute name="created" value="TE9RO0xPUTE1SVJYOTsyMDI0LTA5LTI2OzA4OjU0OjI2IFNBOzIxNTk="/>
+        <attribute name="edited" value="TE9RO0xPUTE1SVJYOTsyMDI0LTA5LTI2OzA5OjQwOjA1IFNBOzE7MjI2MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="canhday" type="Integer" array="False" size=""/>
+            <declare name="chieucao" type="Integer" array="False" size=""/>
+            <declare name="S" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nhap canh day:&quot;" newline="True"/>
+            <input variable="canhday"/>
+            <output expression="&quot;Nhap chieu cao:&quot;" newline="True"/>
+            <input variable="chieucao"/>
+            <assign variable="S" expression="(canhday*chieucao)/2"/>
+            <output expression="&quot;S tam giac:&quot; &amp;S" newline="True"/>
+        </body>
+    </function>
+    <function name="S" type="Integer" variable="dientich">
+        <parameters>
+            <parameter name="canhday" type="Integer" array="False"/>
+            <parameter name="chieucao" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="S" type="Integer" array="False" size=""/>
+            <assign variable="S" expression="(canhday*chieucao)/2"/>
+        </body>
+    </function>
+</flowgorithm>

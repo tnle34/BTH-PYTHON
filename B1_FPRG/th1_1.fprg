@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="th1_1"/>
+        <attribute name="authors" value="LOQ"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-26 07:59:07 SA"/>
+        <attribute name="created" value="TE9RO0xPUTE1SVJYOTsyMDI0LTA5LTI2OzA3OjI3OjUxIFNBOzIxNTY="/>
+        <attribute name="edited" value="TE9RO0xPUTE1SVJYOTsyMDI0LTA5LTI2OzA3OjU5OjA3IFNBOzE7MjI3MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nhap x:&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Nhap y:&quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="&quot;Tong la:&quot; &amp;cong(x,y)" newline="True"/>
+        </body>
+    </function>
+    <function name="cong" type="Integer" variable="z">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+            <parameter name="y" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="z" type="Integer" array="False" size=""/>
+            <assign variable="z" expression="x+y"/>
+        </body>
+    </function>
+</flowgorithm>

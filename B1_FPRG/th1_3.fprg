@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="th1_3"/>
+        <attribute name="authors" value="LOQ"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-26 08:37:57 SA"/>
+        <attribute name="created" value="TE9RO0xPUTE1SVJYOTsyMDI0LTA5LTI2OzA4OjExOjA2IFNBOzIxNTA="/>
+        <attribute name="edited" value="TE9RO0xPUTE1SVJYOTsyMDI0LTA5LTI2OzA4OjM3OjU3IFNBOzE7MjI3Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="99" end="1" direction="dec" step="1">
+                <if expression="n == 1">
+                    <then>
+                        <output expression="&quot;1 chai bia&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="n &amp; &quot; chai bia&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

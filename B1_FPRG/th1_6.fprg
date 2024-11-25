@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="th1_6"/>
+        <attribute name="authors" value="LOQ"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-26 10:38:12 SA"/>
+        <attribute name="created" value="TE9RO0xPUTE1SVJYOTsyMDI0LTA5LTI2OzA5OjQwOjA5IFNBOzIxNTY="/>
+        <attribute name="edited" value="TE9RO0xPUTE1SVJYOTsyMDI0LTA5LTI2OzEwOjM4OjEyIFNBOzE7MjI1Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nhap n:&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n==1">
+                <then>
+                    <output expression="n&amp; &quot; khong phai la so ngyen to&quot;" newline="True"/>
+                </then>
+                <else>
+                    <declare name="i" type="Integer" array="False" size=""/>
+                    <assign variable="i" expression="1"/>
+                    <do expression="n%i!=0">
+                        <assign variable="i" expression="1+1"/>
+                    </do>
+                    <if expression="i==n">
+                        <then>
+                            <output expression="&quot; la so nguyen to&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot; khong phai la so nguyen to&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

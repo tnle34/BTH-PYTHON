@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="th1_2"/>
+        <attribute name="authors" value="LOQ"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-26 08:14:54 SA"/>
+        <attribute name="created" value="TE9RO0xPUTE1SVJYOTsyMDI0LTA5LTI2OzA3OjU5OjExIFNBOzIxNTc="/>
+        <attribute name="edited" value="TE9RO0xPUTE1SVJYOTsyMDI0LTA5LTI2OzA4OjE0OjU0IFNBOzI7MjI2NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nhap ban kinh:&quot;" newline="True"/>
+            <input variable="r"/>
+            <assign variable="a" expression="3.14*r^2"/>
+            <output expression="&quot;Din tich cua hinh tron la:&quot; &amp;a" newline="True"/>
+        </body>
+    </function>
+    <function name="a" type="Real" variable="a">
+        <parameters>
+            <parameter name="r" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <assign variable="a" expression="3.14*r^2"/>
+        </body>
+    </function>
+</flowgorithm>

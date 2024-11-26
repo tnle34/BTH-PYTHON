@@ -1,0 +1,6 @@
+a=input("Nhap xau ki tu: ")
+b=a.split()
+print (b)
+c=" ".join(b)
+print(c)
+input("LE VAN TIEN 235752021610015")
